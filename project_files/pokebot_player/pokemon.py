@@ -20,7 +20,6 @@ class Pokemon:
         self.speed_iv = random.randint(0,32)
 
     def get_hp_stat(self):
-
         hp_stat = int(((((self.base_hp + self.hp_iv) * 2) * self.lv) / 100) + self.lv + 10)
         return hp_stat
 
